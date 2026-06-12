@@ -95,7 +95,7 @@ class BudgetTracker {
             0,
         );
         this.balanceElement.textContent = `Balance: $${balance.toFixed(2)}`;
-        this.balanceElement.style.color = balance >= 0 ? "green" : "red";
+        this.balanceElement.style.color = balance >= 0 ? "darkgreen" : "red";
     }
 }
 
